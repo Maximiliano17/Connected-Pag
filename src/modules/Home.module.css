@@ -4,14 +4,10 @@
     margin:0px;
     padding:0px;
     box-sizing:0px;
-
-    font-family: 'Anton', sans-serif;
-    font-family: 'Comfortaa', cursive;
-    scroll-behavior: smooth;
 }
 
 /*Home*/
- 
+  
 .main{
     width:100%;
     height:100vh;
@@ -32,19 +28,38 @@
     align-items: flex-start;
     justify-content: flex-end;
 }
-
-.content p {
-    margin-left: 2rem;
+ 
+.content h1 {
     width: fix-content;
-    padding: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 0;
-    letter-spacing: -0.02em;
+    font-size: 100px;
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+} 
+
+.content p {
+    width: fix-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+}
+
+.content img{
+    width: 250px;
+    margin-left: 5rem;
+}
+
+.home{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
