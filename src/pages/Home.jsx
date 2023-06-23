@@ -9,11 +9,19 @@ function Home() {
           {/* Home */}
       <main className={styles.main}>
         <div className={styles.content}>
-            <img src={img} />
-            <h1>Connected World</h1>
-            <p className={styles.slogan}>Por un mundo conectado, por un mundo mejor.</p> 
+
             </div> 
+              <section className={styles.contenido}>
+                <section className={styles.img}>
+                 <img src={img} />          
+                </section>
+               <section className={styles.texto}>
+                <h1>Connected World</h1>
+                <p>Por un mundo conectado, por un mundo mejor.</p> 
+              </section>
+           </section>
       </main>
+
       <main id="Home" className={styles.home}>
         <h1>hola</h1>
       </main>
