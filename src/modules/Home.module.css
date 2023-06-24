@@ -33,24 +33,10 @@
 
 .home{
     width:100%;
-    height:100vh;
+    height:50vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img {
-    width:50%;
-    height:50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- 
-    margin-right: 50%;
-}
-
-.img img{
-    width: 50%;
 }
 
 .contenido{
@@ -65,22 +51,4 @@
     z-index: 1;
     bottom: 50px;
     margin-right: 40%;
-}
-
-.texto{
-    width:100%;
-    height:50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
- 
-}
-
-
-.texto h1{
-    margin-left: 10%;
-}
-
-.texto p{
-    margin-left: 10%;
 }
