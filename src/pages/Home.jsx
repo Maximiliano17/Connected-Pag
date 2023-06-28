@@ -6,12 +6,7 @@ function Home() {
       <>
           {/* Home */}
       <main className={styles.main}>
-        <div className={styles.content}>
-
-            </div> 
-              <section className={styles.contenido}>
-               
-           </section>
+       
       </main>
 
       <main id="Home" className={styles.home}>
